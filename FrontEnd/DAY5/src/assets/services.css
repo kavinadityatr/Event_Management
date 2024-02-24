@@ -1,0 +1,41 @@
+
+
+.image-paragraph {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 8%;
+    margin-left: 10%;
+    color: white;
+  }
+  
+  .image-container {
+    flex: 0 0 50%;
+    border-radius: 20%;
+    
+  }
+  
+  .service-image img {
+    height: 50%;
+    width: 50%;
+    border-radius: 10%;
+  }
+  .paragraph-container {
+    flex: 0 0 50%;
+  }
+  
+  .image-container img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 20%;
+
+  }
+  
+  .left-aligned {
+    flex-direction: row;
+  }
+  
+  .right-aligned {
+    flex-direction: row-reverse;
+  }
+  
