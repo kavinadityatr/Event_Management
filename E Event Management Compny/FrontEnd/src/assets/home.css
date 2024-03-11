@@ -1,0 +1,40 @@
+section {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: white;
+}
+
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust the column width as needed */
+  gap: 20px; 
+}
+
+.expertise-item {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  height: 90%;
+}
+.sectionhome{
+  margin-top: 10%;
+}
+
+.list
+{
+  padding-left: 10%;
+}

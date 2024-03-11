@@ -1,0 +1,69 @@
+/* enquiry.css */
+
+.container {
+  max-width: 600px;
+  margin-top: 14%;
+  margin-bottom: 15%;
+  margin-left: 30%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  background-color: rgba(0, 0, 0, 0.3) ;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  color: white; /* Set text color to white */
+}
+
+input[type='text'],
+input[type='date'],
+input[type='number'] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: white; /* Set text color to white */
+  background-color: rgba(255, 255, 255, 0.1); /* Add a translucent white background */
+}
+
+button[type='submit'] {
+  padding: 10px 20px;
+  background-color: #c9d4df;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+}
+
+button[type='submit']:hover {
+  background-color: #0056b3;
+}
+
+.message {
+  margin-top: 10px;
+  font-weight: bold;
+  color: white; /* Set text color to white */
+}
